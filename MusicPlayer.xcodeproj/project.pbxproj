@@ -13,6 +13,12 @@
 		8A1DFA762539CB1F0037E3E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A1DFA742539CB1F0037E3E7 /* Main.storyboard */; };
 		8A1DFA782539CB240037E3E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A1DFA772539CB240037E3E7 /* Assets.xcassets */; };
 		8A1DFA7B2539CB240037E3E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A1DFA792539CB240037E3E7 /* LaunchScreen.storyboard */; };
+		8A1DFA852539CD370037E3E7 /* Trivium_-_In_Waves.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A1DFA842539CD370037E3E7 /* Trivium_-_In_Waves.mp3 */; };
+		8A1DFA882539D0270037E3E7 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1DFA872539D0270037E3E7 /* Song.swift */; };
+		8A1DFA8B2539D0940037E3E7 /* Ypo_To_Miden_-_BLACK.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A1DFA8A2539D0940037E3E7 /* Ypo_To_Miden_-_BLACK.mp3 */; };
+		8A1DFA8E2539D1020037E3E7 /* Icona_Pop_feat._Charli_XCX_-_I_Love_It_(feat._Charli_XCX).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A1DFA8D2539D1020037E3E7 /* Icona_Pop_feat._Charli_XCX_-_I_Love_It_(feat._Charli_XCX).mp3 */; };
+		8A40EF132539E1D900AAAE60 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40EF122539E1D900AAAE60 /* PlayerViewController.swift */; };
+		8A40EF27253B388600AAAE60 /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40EF26253B388600AAAE60 /* TrackCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		8A1DFA772539CB240037E3E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A1DFA7A2539CB240037E3E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A1DFA7C2539CB240037E3E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A1DFA842539CD370037E3E7 /* Trivium_-_In_Waves.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Trivium_-_In_Waves.mp3"; sourceTree = "<group>"; };
+		8A1DFA872539D0270037E3E7 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		8A1DFA8A2539D0940037E3E7 /* Ypo_To_Miden_-_BLACK.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ypo_To_Miden_-_BLACK.mp3"; sourceTree = "<group>"; };
+		8A1DFA8D2539D1020037E3E7 /* Icona_Pop_feat._Charli_XCX_-_I_Love_It_(feat._Charli_XCX).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Icona_Pop_feat._Charli_XCX_-_I_Love_It_(feat._Charli_XCX).mp3"; sourceTree = "<group>"; };
+		8A40EF122539E1D900AAAE60 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		8A40EF26253B388600AAAE60 /* TrackCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +68,15 @@
 		8A1DFA6D2539CB1F0037E3E7 /* MusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				8A1DFA8A2539D0940037E3E7 /* Ypo_To_Miden_-_BLACK.mp3 */,
+				8A1DFA8D2539D1020037E3E7 /* Icona_Pop_feat._Charli_XCX_-_I_Love_It_(feat._Charli_XCX).mp3 */,
+				8A1DFA842539CD370037E3E7 /* Trivium_-_In_Waves.mp3 */,
 				8A1DFA6E2539CB1F0037E3E7 /* AppDelegate.swift */,
 				8A1DFA702539CB1F0037E3E7 /* SceneDelegate.swift */,
 				8A1DFA722539CB1F0037E3E7 /* ViewController.swift */,
+				8A40EF26253B388600AAAE60 /* TrackCell.swift */,
+				8A40EF122539E1D900AAAE60 /* PlayerViewController.swift */,
+				8A1DFA872539D0270037E3E7 /* Song.swift */,
 				8A1DFA742539CB1F0037E3E7 /* Main.storyboard */,
 				8A1DFA772539CB240037E3E7 /* Assets.xcassets */,
 				8A1DFA792539CB240037E3E7 /* LaunchScreen.storyboard */,
@@ -126,6 +144,9 @@
 			files = (
 				8A1DFA7B2539CB240037E3E7 /* LaunchScreen.storyboard in Resources */,
 				8A1DFA782539CB240037E3E7 /* Assets.xcassets in Resources */,
+				8A1DFA8E2539D1020037E3E7 /* Icona_Pop_feat._Charli_XCX_-_I_Love_It_(feat._Charli_XCX).mp3 in Resources */,
+				8A1DFA852539CD370037E3E7 /* Trivium_-_In_Waves.mp3 in Resources */,
+				8A1DFA8B2539D0940037E3E7 /* Ypo_To_Miden_-_BLACK.mp3 in Resources */,
 				8A1DFA762539CB1F0037E3E7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,9 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A1DFA882539D0270037E3E7 /* Song.swift in Sources */,
 				8A1DFA732539CB1F0037E3E7 /* ViewController.swift in Sources */,
 				8A1DFA6F2539CB1F0037E3E7 /* AppDelegate.swift in Sources */,
 				8A1DFA712539CB1F0037E3E7 /* SceneDelegate.swift in Sources */,
+				8A40EF132539E1D900AAAE60 /* PlayerViewController.swift in Sources */,
+				8A40EF27253B388600AAAE60 /* TrackCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
